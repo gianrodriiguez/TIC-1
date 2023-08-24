@@ -8,8 +8,15 @@ repositories {
 }
 
 javafx {
-    version = "19"
+    version = "20"
     modules = [ 'javafx.controls' ]
 }
 
 mainClassName = 'org.example.Main'
+
+dependencies {
+    implementation 'org.diirt.javafx:javafx:3.1.7'
+    implementation 'javafx-wrapper:javafx-wrapper:0.1.1'
+    implementation 'de.bixilon.javafx:javafx-svg:0.3'
+    implementation 'com.exadel.flamingo.javafx:flamingo-javafx:1.5.0'
+}
